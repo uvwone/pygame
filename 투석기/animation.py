@@ -26,4 +26,4 @@ class Animation(Sprite):
                   if self.current_frame == self.sprite_columns:
                         self.current_frame = 0
                   else:
-                        self.current_fram +=1
+                        self.current_frame +=1
