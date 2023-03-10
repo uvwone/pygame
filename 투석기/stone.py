@@ -13,6 +13,7 @@ class Stone(Animation):
             self.fps = 20
             self.state = STONE_READY
             self.init_animation()
+            
       def upadate(self):
             self.calc_next_frame()
 
@@ -27,7 +28,7 @@ class Stone(Animation):
             self.rect.y = initial_pos[1]
             self.power = power
             self.direction = direction
-            self.sate = STONE_FLY
+            self.state = STONE_FLY
 
       def move(self, time, space, decrement_stones):
             pos = self.calculate_position(time, g, self.direction)
