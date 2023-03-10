@@ -3,7 +3,7 @@ from animation import Animation
 
 class Alien(Animation):
       def __init__(self):
-            self.sprite_iamge = 'alien.png'
+            self.sprite_image = 'alien.png'
             self.sprite_width = 32
             self.sprite_height = 32
             self.sprite_columns = 3
