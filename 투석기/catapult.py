@@ -12,7 +12,7 @@ class Catapult(Animation):
             self.sprite_columns = 5
             self.fps = 30
             self.stone = stone
-            self.state = CATAFULT_READY
+            self.state = CATAPULT_READY
             self.init_animation()
       def update(self):
             if self.state == CATAPULT_FIRE:
