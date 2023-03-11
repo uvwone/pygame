@@ -23,7 +23,7 @@ class Catapult(Animation):
                         self.state = CATAPULT_READY
                         self.stone.setup(
                               (self.rect.x, self.rect.y),
-                              self.power, self.direciton)
+                              self.power, self.direction)
             else:
                   self.current_frame = 0
 
