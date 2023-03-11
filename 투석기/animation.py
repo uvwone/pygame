@@ -1,7 +1,7 @@
 import pygame
 from pygame import Surface
 from pygame.color import Color
-from pygame.prite import Sprite
+from pygame.sprite import Sprite
 
 class Animation(Sprite):
       def init_animation(self):
